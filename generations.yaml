@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation (E53)"
+    start_year: 1999
+    end_year: 2006
+    description: "The original X5 was BMW's first SUV (dubbed 'Sports Activity Vehicle' by BMW), built on a unique platform with some components shared with the Range Rover L322, which BMW developed during their ownership of Land Rover. Unlike many competitors, the E53 focused on on-road performance rather than off-road capability, featuring a unibody construction instead of body-on-frame. Engine options ranged from six-cylinders to a 4.8L V8, with all models featuring all-wheel drive. The interior offered premium materials and a driver-focused layout. The first-generation X5 established BMW in the luxury SUV segment and influenced the subsequent development of road-focused premium SUVs."
+
+  - name: "Second Generation (E70)"
+    start_year: 2006
+    end_year: 2013
+    description: "The E70 X5 grew in size and added an optional third row of seats for the first time. The design evolved BMW's SUV aesthetic with more pronounced styling elements while maintaining the sporty character of its predecessor. Engine options expanded to include more efficient options and the first X5 M high-performance variant with a twin-turbocharged V8 producing 555 HP. Technology advanced significantly with the introduction of BMW's iDrive system, advanced driver assistance features, and active chassis systems including adaptive drive. This generation solidified the X5's position as a benchmark in the luxury SUV segment."
+
+  - name: "Third Generation (F15)"
+    start_year: 2013
+    end_year: 2018
+    description: "The F15 X5 refined the formula with a focus on improved efficiency, technology, and luxury. Design became more sophisticated with cleaner lines and more premium details. For the first time, a rear-wheel drive variant (sDrive) was offered alongside xDrive models. Engine options included six and eight-cylinder petrol and diesel units, plus the first plug-in hybrid X5 (xDrive40e). The interior featured higher quality materials and advanced technology including a larger infotainment display, head-up display, and enhanced connectivity. The X5 M continued with a more powerful 567 HP twin-turbo V8. This generation balanced luxury and performance while addressing growing demands for efficiency."
+
+  - name: "Fourth Generation (G05)"
+    start_year: 2018
+    end_year: null
+    description: "The current X5 is built on BMW's CLAR platform, featuring increased use of aluminum and high-strength steel for improved dynamics despite larger dimensions. The design evolved with a more prominent kidney grille, slimmer headlights, and more sculpted body sides. The interior represents a significant step forward with higher quality materials, larger displays, and advanced technology including BMW's latest iDrive system and semi-autonomous driving capabilities. Engine options range from six and eight-cylinder units to the plug-in hybrid xDrive45e with increased electric range, and the performance-focused X5 M delivering up to 617 HP. A facelift in 2023 refreshed the styling and updated the technology. Throughout its evolution, the X5 has maintained its position as a benchmark in the luxury midsize SUV segment, balancing performance, technology, and luxury."
