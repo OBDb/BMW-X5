@@ -71,21 +71,36 @@ test_cases:
 - response: 7E80441230B7A
   expected_values:
     FRP: 29380
+- response: 7E80441230BF1
+  expected_values:
+    FRP: 30570
 - response: 7E80441230C03
   expected_values:
     FRP: 30750
 - response: 7E80441230C0C
   expected_values:
     FRP: 30840
+- response: 7E80441230C5D
+  expected_values:
+    FRP: 31650
+- response: 7E80441230CC8
+  expected_values:
+    FRP: 32720
 - response: 7E80441230CF3
   expected_values:
     FRP: 33150
 - response: 7E80441230CF5
   expected_values:
     FRP: 33170
+- response: 7E80441230D0E
+  expected_values:
+    FRP: 33420
 - response: 7E80441230D42
   expected_values:
     FRP: 33940
+- response: 7E80441230D93
+  expected_values:
+    FRP: 34750
 - response: 7E80441230D96
   expected_values:
     FRP: 34780
@@ -101,6 +116,9 @@ test_cases:
 - response: 7E80441230DA4
   expected_values:
     FRP: 34920
+- response: 7E80441230DA5
+  expected_values:
+    FRP: 34930
 - response: 7E80441230DA7
   expected_values:
     FRP: 34950
