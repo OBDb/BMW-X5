@@ -2,12 +2,24 @@ command_id: 7E0.0105
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E90341053A
+  expected_values:
+    ECT: 18
 - response: 7E90341053F
   expected_values:
     ECT: 23
+- response: '7E903410545'
+  expected_values:
+    ECT: 29
+- response: '7E903410556'
+  expected_values:
+    ECT: 46
 - response: 7E90341055B
   expected_values:
     ECT: 51
+- response: 7E90341055D
+  expected_values:
+    ECT: 53
 - response: 7E90341055E
   expected_values:
     ECT: 54
@@ -32,6 +44,9 @@ test_cases:
 - response: '7E903410572'
   expected_values:
     ECT: 74
+- response: '7E903410573'
+  expected_values:
+    ECT: 75
 - response: '7E903410576'
   expected_values:
     ECT: 78
