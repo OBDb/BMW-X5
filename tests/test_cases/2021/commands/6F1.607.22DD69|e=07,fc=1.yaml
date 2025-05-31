@@ -32,7 +32,7 @@ test_cases:
     BMW_HVBAT_CURR: 10000
 - response: |-
     607F1100762DD69FFFF
-    607F121FF23FFFFFFFF
+    607F121FFD7FFFFFFFF
   expected_values:
-    BMW_HVBAT_C: -2.21
+    BMW_HVBAT_C: -0.41
     BMW_HVBAT_CURR: 10000
