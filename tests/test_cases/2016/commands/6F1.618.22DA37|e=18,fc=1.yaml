@@ -1,26 +1,34 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
-- response: |-
-    618F1100F62DA37007A
-    618F1216E4C000060C4
-    618F12200000434FFFF
-  expected_values:
+- expected_values:
     BMW_TIME_D: 0
     BMW_TIME_M: 110
     BMW_TIME_S: 122
-- response: |-
+  response: |-
     618F1100F62DA37007A
-    618F1216F70000060C4
+    618F1216E4C000060C4
     618F12200000434FFFF
-  expected_values:
+- expected_values:
     BMW_TIME_D: 0
     BMW_TIME_M: 111
     BMW_TIME_S: 122
-- response: |-
+  response: |-
     618F1100F62DA37007A
-    618F12170F9000063CD
+    618F1216F70000060C4
     618F12200000434FFFF
-  expected_values:
+- expected_values:
     BMW_TIME_D: 0
     BMW_TIME_M: 112
     BMW_TIME_S: 122
+  response: |-
+    618F1100F62DA37007A
+    618F12170F9000063CD
+    618F12200000434FFFF
+- expected_values:
+    BMW_TIME_D: 0
+    BMW_TIME_M: 33
+    BMW_TIME_S: 157
+  response: |-
+    618F1100F62DA37009D
+    618F121212A00002A20
+    618F1220000124DFFFF
