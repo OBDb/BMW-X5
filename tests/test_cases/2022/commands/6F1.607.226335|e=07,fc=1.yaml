@@ -5,3 +5,8 @@ test_cases:
   response: |-
     607F110076263350000
     607F121005DFFFFFFFF
+- expected_values:
+    BMW_HVBAT_SOH: 94
+  response: |-
+    607F110076263350000
+    607F121005EFFFFFFFF

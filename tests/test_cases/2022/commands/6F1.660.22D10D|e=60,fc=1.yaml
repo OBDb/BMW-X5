@@ -1,6 +1,12 @@
 command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
 - expected_values:
+    BMW_ODO1: 53905
+    BMW_ODO2: 53905
+  response: |-
+    660F1100B62D10D0000
+    660F121D2910000D291
+- expected_values:
     BMW_ODO1: 69758
     BMW_ODO2: 69758
   response: |-
