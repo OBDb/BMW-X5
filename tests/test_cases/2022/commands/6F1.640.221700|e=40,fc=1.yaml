@@ -11,10 +11,10 @@ test_cases:
     640F110076217000000
     640F121D850FFFFFFFF
 - expected_values:
-    BMW_ODO_2: 55396
+    BMW_ODO_2: 55426
   response: |-
     640F110076217000000
-    640F121D864FFFFFFFF
+    640F121D882FFFFFFFF
 - expected_values:
     BMW_ODO_2: 69755
   response: |-
