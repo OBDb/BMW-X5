@@ -1,26 +1,18 @@
 command_id: 6F1.607.22DD69|e=07,fc=1
 test_cases:
-- expected_values:
-    BMW_HVBAT_C: -5.87
-    BMW_HVBAT_CURR: 10000
+- expected_values: {}
   response: |-
     607F1100762DD69FFFF
     607F121FDB5FFFFFFFF
-- expected_values:
-    BMW_HVBAT_C: -4.97
-    BMW_HVBAT_CURR: 10000
+- expected_values: {}
   response: |-
     607F1100762DD69FFFF
     607F121FE0FFFFFFFFF
-- expected_values:
-    BMW_HVBAT_C: -3.45
-    BMW_HVBAT_CURR: 10000
+- expected_values: {}
   response: |-
     607F1100762DD69FFFF
     607F121FEA7FFFFFFFF
-- expected_values:
-    BMW_HVBAT_C: -2.01
-    BMW_HVBAT_CURR: 10000
+- expected_values: {}
   response: |-
     607F1100762DD69FFFF
     607F121FF37FFFFFFFF

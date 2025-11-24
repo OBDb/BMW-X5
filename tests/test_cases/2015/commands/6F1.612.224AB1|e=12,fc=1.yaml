@@ -1,20 +1,20 @@
 command_id: 6F1.612.224AB1|e=12,fc=1
 test_cases:
 - expected_values:
-    BMW_VSS2: 0
+    X5_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    BMW_VSS2: 49.9
+    X5_VSS2: 49.9
   response: 612F105624AB1137E
 - expected_values:
-    BMW_VSS2: 54.83
+    X5_VSS2: 54.83
   response: 612F105624AB1156B
 - expected_values:
-    BMW_VSS2: 67.84
+    X5_VSS2: 67.84
   response: 612F105624AB11A80
 - expected_values:
-    BMW_VSS2: 78.35
+    X5_VSS2: 78.35
   response: 612F105624AB11E9B
 - expected_values:
-    BMW_VSS2: 143.77
+    X5_VSS2: 143.77
   response: 612F105624AB13829

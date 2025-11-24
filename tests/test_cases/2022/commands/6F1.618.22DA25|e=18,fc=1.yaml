@@ -1,14 +1,16 @@
 command_id: 6F1.618.22DA25|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_EOT: 0
+    X5_ATF_TEMP: 0
+    X5_TQ_CNVRT_LOCKUP: OPEN
+    X5_EOT: 0
   response: |-
     618F10562DA12006A
     618F10562DA220000
     618F10562DA250046
 - expected_values:
-    BMW_EOT: 0
+    X5_EOT: 0
   response: 618F10562DA250043
 - expected_values:
-    BMW_EOT: 0
+    X5_EOT: 0
   response: 618F10562DA25009F

@@ -1,11 +1,11 @@
 command_id: 6F1.660.22D112|e=60,fc=1
 test_cases:
 - expected_values:
-    BMW_AAT: 6.5
+    X5_AAT: 6.5
   response: 660F10562D1125D5D
 - expected_values:
-    BMW_AAT: 35
+    X5_AAT: 35.0
   response: 660F10562D11296B9
 - expected_values:
-    BMW_AAT: 37
+    X5_AAT: 37.0
   response: 660F10562D1129A9B
