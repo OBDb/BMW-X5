@@ -1,26 +1,26 @@
 command_id: 6F1.618.22DA23|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_ODO: 53896
-    BMW_ODO_LOWRES: 53896
+    X5_ODO: 53896.0
+    X5_ODO_LOWRES: 53896.0
   response: |-
     618F1100762DA230000
     618F1211A51FFFFFFFF
 - expected_values:
-    BMW_ODO: 55432
-    BMW_ODO_LOWRES: 55432
+    X5_ODO: 55432.0
+    X5_ODO_LOWRES: 55432.0
   response: |-
     618F1100762DA230000
     618F1211B11FFFFFFFF
 - expected_values:
-    BMW_ODO: 69752
-    BMW_ODO_LOWRES: 69752
+    X5_ODO: 69752.0
+    X5_ODO_LOWRES: 69752.0
   response: |-
     618F1100762DA230000
     618F121220FFFFFFFFF
 - expected_values:
-    BMW_ODO: 69888
-    BMW_ODO_LOWRES: 69888
+    X5_ODO: 69888.0
+    X5_ODO_LOWRES: 69888.0
   response: |-
     618F1100762DA230000
     618F1212220FFFFFFFF

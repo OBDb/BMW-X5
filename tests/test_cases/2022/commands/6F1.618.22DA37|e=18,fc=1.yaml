@@ -1,9 +1,11 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_TIME_D: 255
-    BMW_TIME_M: 111
-    BMW_TIME_S: 250
+    X5_KICKDOWN: 0
+    X5_TQ_CNVRT_LOCKUP: OPEN
+    X5_TIME_D: 255.0
+    X5_TIME_M: 111.0
+    X5_TIME_S: 250.0
   response: |-
     618F10562DA1F0000
     618F10562DA220000
@@ -11,9 +13,9 @@ test_cases:
     618F1216F08FFFA6F0C
     618F122FFFA6F10FFFF
 - expected_values:
-    BMW_TIME_D: 255
-    BMW_TIME_M: 111
-    BMW_TIME_S: 250
+    X5_TIME_D: 255.0
+    X5_TIME_M: 111.0
+    X5_TIME_S: 250.0
   response: |-
     618F1100F62DA37FFFA
     618F1216F08FFFA6F0C

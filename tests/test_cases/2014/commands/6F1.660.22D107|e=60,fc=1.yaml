@@ -1,34 +1,42 @@
 command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
 - expected_values:
-    BMW_VSS: 0
+    X5_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    BMW_VSS: 51.1
+    X5_VSS: 51.1
   response: 660F10562D10701FF
 - expected_values:
-    BMW_VSS: 195.6
+    X5_VSS: 195.6
   response: 660F10562D10707A4
 - expected_values:
-    BMW_VSS: 57.7
+    X5_ODO1: 92366.0
+    X5_ODO2: 92366.0
+    X5_VSS: 57.7
   response: |-
     660F1100B62D10D0001
     660F12168CE000168CE
     660F10562D1070241
 - expected_values:
-    BMW_VSS: 129.5
+    X5_ODO1: 93035.0
+    X5_ODO2: 93035.0
+    X5_VSS: 129.5
   response: |-
     660F1100B62D10D0001
     660F1216B6B00016B6B
     660F10562D107050F
 - expected_values:
-    BMW_VSS: 54.8
+    X5_ODO1: 93121.0
+    X5_ODO2: 93121.0
+    X5_VSS: 54.8
   response: |-
     660F1100B62D10D0001
     660F1216BC100016BC1
     660F10562D1070224
 - expected_values:
-    BMW_VSS: 30.6
+    X5_ODO1: 97075.0
+    X5_ODO2: 97075.0
+    X5_VSS: 30.6
   response: |-
     660F1100B62D10D0001
     660F1217B3300017B33

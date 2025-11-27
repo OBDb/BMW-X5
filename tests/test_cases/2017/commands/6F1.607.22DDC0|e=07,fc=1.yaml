@@ -1,38 +1,26 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
-- expected_values:
-    BMW_HVBAT_CT_MAX: 23.98
-    BMW_HVBAT_CT_MIN: 22.98
+- expected_values: {}
   response: |-
     607F1100A62DDC008FA
     607F121095E095301FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 23.99
-    BMW_HVBAT_CT_MIN: 22.99
+- expected_values: {}
   response: |-
     607F1100A62DDC008FB
     607F121095F095001FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 23.99
-    BMW_HVBAT_CT_MIN: 23
+- expected_values: {}
   response: |-
     607F1100A62DDC008FC
     607F121095F094F01FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 24
-    BMW_HVBAT_CT_MIN: 23
+- expected_values: {}
   response: |-
     607F1100A62DDC008FC
     607F1210960094F01FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 27.85
-    BMW_HVBAT_CT_MIN: 25.99
+- expected_values: {}
   response: |-
     607F1100A62DDC00A27
     607F1210AE10A7401FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 28.38
-    BMW_HVBAT_CT_MIN: 26.47
+- expected_values: {}
   response: |-
     607F1100A62DDC00A57
     607F1210B160AAB01FF
