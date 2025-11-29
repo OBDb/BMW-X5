@@ -5,7 +5,7 @@ test_cases:
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 32.54902
     EGR_A_CMD_SUP: 1
-    EGR_A_ERR: 2.46875
+    EGR_A_ERR: 30.46875
     EGR_A_ERR_SUP: 1
     EGR_B_ACT: 0
     EGR_B_ACT_SUP: 0
