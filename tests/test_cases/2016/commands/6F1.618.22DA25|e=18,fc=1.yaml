@@ -1,8 +1,8 @@
 command_id: 6F1.618.22DA25|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_EOT: 0
+    BMW_EOT: 39
   response: 618F10562DA250057
 - expected_values:
-    BMW_EOT: 0
+    BMW_EOT: 100
   response: 618F10562DA250094
