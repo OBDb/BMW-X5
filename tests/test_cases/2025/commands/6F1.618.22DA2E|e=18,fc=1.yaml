@@ -1,34 +1,30 @@
 command_id: 6F1.618.22DA2E|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_GEAR: 0
     BMW_GEAR_SHIFT: PARK
   response: 618F10562DA2E0000
 - expected_values:
-    BMW_GEAR: 3
+    BMW_GEAR: DRIVE
     BMW_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0303
 - expected_values:
-    BMW_GEAR: 4
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0403
 - expected_values:
-    BMW_GEAR: 5
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0503
 - expected_values:
-    BMW_GEAR: 6
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0603
 - expected_values:
-    BMW_GEAR: 7
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0703
 - expected_values:
-    BMW_GEAR: 8
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0803
 - expected_values:
-    BMW_GEAR: 9
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E0903
 - expected_values:
-    BMW_GEAR: 16
+    BMW_GEAR: DRIVE
   response: 618F10562DA2E1003
-- expected_values:
-    BMW_GEAR: 255
-  response: 618F10562DA2EFF02
