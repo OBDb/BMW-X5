@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_X5"
+
 generations:
   - name: "First Generation (E53)"
     start_year: 1999
