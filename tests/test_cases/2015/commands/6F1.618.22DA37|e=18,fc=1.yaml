@@ -74,6 +74,14 @@ test_cases:
     618F12200005023FFFF
 - expected_values:
     BMW_TIME_D: 0
+    BMW_TIME_M: 115
+    BMW_TIME_S: 95
+  response: |-
+    618F1100F62DA37005F
+    618F12173C300018458
+    618F122000009CCFFFF
+- expected_values:
+    BMW_TIME_D: 0
     BMW_TIME_M: 170
     BMW_TIME_S: 138
   response: |-
