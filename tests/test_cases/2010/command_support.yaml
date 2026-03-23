@@ -123,4 +123,5 @@ unsupported_commands_by_ecu:
   - 6F1.660.22D112|e=60,fc=1:BMW_AAT
   - 6F1.663.22D031|e=63,fc=1:BMW_GEAR_V2
   "7E4":
+  - 7E4.7EC.0104
   - 7E4.7EC.0105
