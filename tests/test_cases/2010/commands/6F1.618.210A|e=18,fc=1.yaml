@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     BMW_ATF_T: -50
   response: 618F103610A05
+- expected_values:
+    BMW_ATF_T: -49
+  response: 618F103610A06
