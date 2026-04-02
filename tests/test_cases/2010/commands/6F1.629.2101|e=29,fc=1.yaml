@@ -8,6 +8,15 @@ test_cases:
   response: |-
     629F1100D6101000000
     629F121000000000000
+    629F122000AFFFFFFFF
+- expected_values:
+    BMW_FL_VSS_21: 0
+    BMW_FR_VSS_21: 0
+    BMW_RL_VSS_21: 0
+    BMW_RR_VSS_21: 0
+  response: |-
+    629F1100D6101000000
+    629F121000000000000
     629F122000FFFFFFFFF
 - expected_values:
     BMW_FL_VSS_21: 9
