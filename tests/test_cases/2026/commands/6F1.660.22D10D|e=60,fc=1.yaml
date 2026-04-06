@@ -24,3 +24,9 @@ test_cases:
   response: |-
     660F1100B62D10D0000
     660F121335100003351
+- expected_values:
+    BMW_ODO_ALT: 13152
+    BMW_ODO_V2: 13152
+  response: |-
+    660F1100B62D10D0000
+    660F121336000003360
