@@ -4,5 +4,5 @@ test_cases:
     BMW_EOT: 21
   response: 618F10562DA250045
 - expected_values:
-    BMW_EOT: 99
-  response: 618F10562DA250093
+    BMW_EOT: 100
+  response: 618F10562DA250094
