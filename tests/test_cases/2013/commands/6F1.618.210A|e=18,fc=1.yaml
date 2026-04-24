@@ -1,0 +1,23 @@
+command_id: 6F1.618.210A|e=18,fc=1
+test_cases:
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0001
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0002
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0003
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0004
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0005
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A0006
+- expected_values:
+    BMW_ATF_T: -55
+  response: 618F104610A000A
