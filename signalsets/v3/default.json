@@ -1,4 +1,31 @@
 { "commands": [
-
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "400B"}, "freq": 1,
+  "signals": [
+    {"id": "X5_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1 (excess air ratio)", "suggestedMetric": "o2Lambda"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4015"}, "freq": 1,
+  "signals": [
+    {"id": "X5_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "min": -40, "unit": "celsius" }, "name": "Intake air temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "40CB"}, "freq": 5,
+  "signals": [
+    {"id": "X5_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content (CAN broadcast, live)"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "411E"}, "freq": 1,
+  "signals": [
+    {"id": "X5_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4506"}, "freq": 1,
+  "signals": [
+    {"id": "X5_OIL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4C5B"}, "freq": 1,
+  "signals": [
+    {"id": "X5_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "57C3"}, "freq": 1,
+  "signals": [
+    {"id": "X5_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature (alt)"}
+  ]}
 ]
 }
