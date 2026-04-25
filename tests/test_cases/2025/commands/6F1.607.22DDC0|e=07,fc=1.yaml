@@ -1,6 +1,12 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - expected_values:
+    BMW_HVBAT_CT_MAX: 20.84
+    BMW_HVBAT_CT_MIN: 20.78
+  response: |-
+    607F1100A62DDC0081E
+    607F1210824082201
+- expected_values:
     BMW_HVBAT_CT_MAX: 21.6
     BMW_HVBAT_CT_MIN: 21.53
   response: |-
@@ -37,11 +43,11 @@ test_cases:
     607F1100A62DDC0093F
     607F121096F095601
 - expected_values:
-    BMW_HVBAT_CT_MAX: 37.55
-    BMW_HVBAT_CT_MIN: 33.29
+    BMW_HVBAT_CT_MAX: 37.45
+    BMW_HVBAT_CT_MIN: 33.28
   response: |-
-    607F1100A62DDC00D01
-    607F1210EAB0DDF01
+    607F1100A62DDC00D00
+    607F1210EA10DDD01
 - expected_values:
     BMW_HVBAT_CT_MAX: 39.53
     BMW_HVBAT_CT_MIN: 34.95
