@@ -1,7 +1,67 @@
 { "commands": [
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "6335"}, "freq": 3600, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DD69"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "X5_HVBAT_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",      "suggestedMetric": "stateOfCharge"},
+    {"id": "X5_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, max"},
+    {"id": "X5_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, min"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "X5_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, min"},
+    {"id": "X5_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, max"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DF71"}, "freq": 86400, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_HVBAT_C_CNT",     "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of cells"},
+    {"id": "X5_HVBAT_C_CNT_MOD", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of cells per module"},
+    {"id": "X5_HVBAT_MOD_CNT",   "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of modules"},
+    {"id": "X5_HVBAT_MOD_T_CNT", "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of temperature sensors per module"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_HVBAT_C_CAP_MIN",        "path": "Battery", "fmt": {            "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity, min"},
+    {"id": "X5_HVBAT_C_CAP_MAX",        "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity, max"},
+    {"id": "X5_HVBAT_C_CAP_AVG",        "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity, average"},
+    {"id": "X5_HVBAT_C_V_MIN",          "path": "Battery", "fmt": {"bix": 48,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage, min)"},
+    {"id": "X5_HVBAT_C_V_MAX",          "path": "Battery", "fmt": {"bix": 64,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage, max"},
+    {"id": "X5_HVBAT_C_V_AVG",          "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage, average"},
+    {"id": "X5_HVBAT_C_TEMP_MIN",       "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature, min"},
+    {"id": "X5_HVBAT_C_TEMP_MAX",       "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature, max"},
+    {"id": "X5_HVBAT_C_TEMP_AVG",       "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature, average"},
+    {"id": "X5_HVBAT_C_RES_FACTOR_MIN", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor, min"},
+    {"id": "X5_HVBAT_C_RES_FACTOR_MAX", "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor, max"},
+    {"id": "X5_HVBAT_C_RES_FACTOR_AVG", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor, average"},
+    {"id": "X5_HVBAT_C_SOC_MIN",        "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell state of charge, min"},
+    {"id": "X5_HVBAT_C_SOC_MAX",        "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell state of charge, max"},
+    {"id": "X5_HVBAT_C_SOC_AVG",        "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell state of charge, average"},
+    {"id": "X5_HVBAT_C_OCV_MIN",        "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, min"},
+    {"id": "X5_HVBAT_C_OCV_MAX",        "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, max"},
+    {"id": "X5_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, average"},
+    {"id": "X5_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "X5_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5CE"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "X5_HVBAT_SOC_V2", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2019], "from": 2024 },
+  "signals": [
+    {"id": "X5_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "400B"}, "freq": 1,
   "signals": [
-    {"id": "X5_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1 (excess air ratio)", "suggestedMetric": "o2Lambda"}
+    {"id": "X5_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1, excess air ratio", "suggestedMetric": "o2Lambda"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4015"}, "freq": 1,
   "signals": [
@@ -9,7 +69,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "40CB"}, "freq": 5,
   "signals": [
-    {"id": "X5_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content (CAN broadcast, live)"}
+    {"id": "X5_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "411E"}, "freq": 1,
   "signals": [
@@ -19,13 +79,137 @@
   "signals": [
     {"id": "X5_OIL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2016, 2019], "from": 2025 },
+  "signals": [
+    {"id": "X5_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4C5B"}, "freq": 1,
   "signals": [
     {"id": "X5_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "57C3"}, "freq": 1,
   "signals": [
-    {"id": "X5_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature (alt)"}
+    {"id": "X5_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature, alternate", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2013, 2016, 2019], "from": 2024 },
+  "signals": [
+    {"id": "X5_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
+          "0": { "description": "Open",               "value": "OPEN" },
+          "1": { "description": "Controlled low",     "value": "CONTROL_LOW" },
+          "2": { "description": "Controlled high",    "value": "CONTROL_HIGH" },
+          "3": { "description": "Closed low",         "value": "CLOSED_LOW" },
+          "4": { "description": "Closed high",        "value": "CLOSED_HIGH" },
+          "8": { "description": "Transition to open", "value": "TRANSITION_OPEN" }
+        }}
+    }
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "dbgfilter": { "to": 2010, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_EOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "add": -48, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2019], "from": 2024 },
+  "signals": [
+    {"id": "X5_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
+    {"id": "X5_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "0": { "description": "Park",    "value": "PARK" },
+          "1": { "description": "Reverse", "value": "REVERSE" },
+          "2": { "description": "Neutral", "value": "NEUTRAL" },
+          "3": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    },
+    {"id": "X5_GEAR", "path": "Transmission", "name": "Drive mode", "fmt": {"bix": 8, "len": 8, "map": {
+          "3": { "description": "Drive", "value": "DRIVE" },
+          "5": { "description": "Sport", "value": "SPORT" }
+        }}
+    }
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2019], "from": 2023 },
+  "signals": [
+    {"id": "X5_TIME_D", "path": "Trips", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in drive"},
+    {"id": "X5_TIME_S", "path": "Trips", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in sport"},
+    {"id": "X5_TIME_M", "path": "Trips", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in manual"}
+  ]},
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2019 }, "dbgfilter": { "to": 2019, "years": [2023], "from": 2027 },
+  "signals": [
+    {"id": "X5_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
+    {"id": "X5_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
+  ]},
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020, "from": 2023 },
+  "signals": [
+    {"id": "X5_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
+    {"id": "X5_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "X5_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "X5_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "X5_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019, 2024, 2025], "from": 2027 },
+  "signals": [
+    {"id": "X5_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
+    {"id": "X5_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
+    {"id": "X5_DOOR_DRIVER_REAR",    "path": "Doors",   "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear driver door open"},
+    {"id": "X5_DOOR_PASSENGER_REAR", "path": "Doors",   "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear passenger door open"},
+    {"id": "X5_HOOD",                "path": "Doors",   "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Hood open"},
+    {"id": "X5_TRUNK",               "path": "Doors",   "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Trunk open"},
+    {"id": "X5_REAR_WINDOW",         "path": "Windows", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
+    {"id": "X5_CENTRAL_LOCK",        "path": "Doors",   "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
+    {"id": "X5_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2016, 2019], "from": 2024 },
+  "signals": [
+    {"id": "X5_RANGE_E_CUR", "path": "Trips", "fmt": {           "len": 16, "max": 6553.5, "div": 10,                                  "unit": "kilometers"    }, "name": "Current electric range",       "suggestedMetric": "electricRange",        "description": "Current estimated electric range"},
+    {"id": "X5_RANGE_E_MAX", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10,                                  "unit": "kilometers"    }, "name": "Maximum electric range"},
+    {"id": "X5_RANGE_F_CUR", "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553.5, "div": 10,                 "nullmax": 6553, "unit": "kilometers"    }, "name": "Current fuel range",           "suggestedMetric": "fuelRange",            "description": "Requires range extender."},
+    {"id": "X5_RANGE_F_MAX", "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553.5, "div": 10,   "nullmin": 0, "nullmax": 6553, "unit": "kilometers"    }, "name": "Maximum fuel range",           "description": "Requires range extender."},
+    {"id": "X5_RANGE_E_USE", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmin": 0, "nullmax": 65,   "unit": "kilowattHours" }, "name": "Electric consumption / 100km"},
+    {"id": "X5_AUX_PWR",     "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,                "nullmax": 655,  "unit": "kilowatts"     }, "name": "Auxiliary power consumption"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "years": [2019], "from": 2027 },
+  "signals": [
+    {"id": "X5_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2013, "from": 2019 },
+  "signals": [
+    {"id": "X5_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]}
 ]
 }

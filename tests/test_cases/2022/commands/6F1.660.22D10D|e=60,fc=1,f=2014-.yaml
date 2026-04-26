@@ -1,0 +1,38 @@
+command_id: 6F1.660.22D10D|e=60,fc=1,f=2014-
+test_cases:
+- expected_values:
+    X5_ODO: 49915
+    X5_ODO_ALT: 49915
+  response: |-
+    660F1100B62D10D0000
+    660F121C2FB0000C2FB
+- expected_values:
+    X5_ODO: 49919
+    X5_ODO_ALT: 49919
+  response: |-
+    660F1100B62D10D0000
+    660F121C2FF0000C2FF
+- expected_values:
+    X5_ODO: 49936
+    X5_ODO_ALT: 49936
+  response: |-
+    660F1100B62D10D0000
+    660F121C3100000C310
+- expected_values:
+    X5_ODO: 53905
+    X5_ODO_ALT: 53905
+  response: |-
+    660F1100B62D10D0000
+    660F121D2910000D291
+- expected_values:
+    X5_ODO: 55444
+    X5_ODO_ALT: 55444
+  response: |-
+    660F1100B62D10D0000
+    660F121D8940000D894
+- expected_values:
+    X5_ODO: 69758
+    X5_ODO_ALT: 69758
+  response: |-
+    660F1100B62D10D0001
+    660F121107E0001107E
