@@ -75,9 +75,33 @@
   "signals": [
     {"id": "X5_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4201"}, "freq": 1,
+  "signals": [
+    {"id": "X5_AMBIENT_PRESSURE", "path": "Engine", "fmt": { "len": 16, "max": 5000, "mul": 10, "div": 256, "unit": "kilopascal" }, "name": "Ambient pressure"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4205"}, "freq": 1,
+  "signals": [
+    {"id": "X5_BOOST_PRESSURE", "path": "Engine", "fmt": { "len": 16, "max": 5000, "mul": 20, "div": 256, "unit": "kilopascal" }, "name": "Boost pressure"}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "X5_OIL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4807"}, "freq": 1,
+  "signals": [
+    {"id": "X5_RPM", "path": "Engine", "fmt": { "len": 16, "max": 8000, "div": 2, "sign": true, "unit": "rpm" }, "name": "Engine speed"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "480B"}, "freq": 1,
+  "signals": [
+    {"id": "X5_PEDAL_POS", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 8192, "sign": true, "unit": "percent" }, "name": "Accelerator pedal position", "suggestedMetric": "throttlePosition"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4A21"}, "freq": 1,
+  "signals": [
+    {"id": "X5_COOLANT_FILT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Coolant temperature (filtered, canonical)", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4AB0"}, "freq": 1,
+  "signals": [
+    {"id": "X5_BOOST_SETPOINT", "path": "Engine", "fmt": { "len": 16, "max": 5000, "mul": 10, "div": 256, "unit": "kilopascal" }, "name": "Boost pressure setpoint"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "years": [2016, 2019], "from": 2025 },
   "signals": [
@@ -87,13 +111,53 @@
   "signals": [
     {"id": "X5_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5640"}, "freq": 1,
+  "signals": [
+    {"id": "X5_LAMBDA_PROBE", "path": "Engine", "fmt": { "len": 16, "max": 2, "div": 4096, "unit": "scalar" }, "name": "Actual lambda from probe", "suggestedMetric": "o2Lambda"}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "57C3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "X5_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature, alternate", "suggestedMetric": "engineOilTemperature"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5816"}, "freq": 1,
+  "signals": [
+    {"id": "X5_LAMBDA_SETPOINT", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 16, "div": 65536, "unit": "scalar" }, "name": "Lambda setpoint"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5822"}, "freq": 1,
+  "signals": [
+    {"id": "X5_OIL_TEMP_V2", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature (canonical 5822)", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "582F"}, "freq": 1,
+  "signals": [
+    {"id": "X5_EGT_AFTER_CAT", "path": "Engine", "fmt": { "len": 16, "max": 1200, "min": -40, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature after catalytic converter"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "583B"}, "freq": 60,
+  "signals": [
+    {"id": "X5_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "unit": "liters" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "586A"}, "freq": 5,
+  "signals": [
+    {"id": "X5_BATTERY_V", "path": "Battery", "fmt": { "len": 16, "max": 30, "div": 50, "sign": true, "unit": "volts" }, "name": "Battery voltage (12V)", "suggestedMetric": "starterBatteryVoltage"}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2013, 2016, 2019], "from": 2024 },
   "signals": [
     {"id": "X5_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5889"}, "freq": 1,
+  "signals": [
+    {"id": "X5_LAMBDA_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 16, "div": 65536, "unit": "scalar" }, "name": "Lambda actual value (canonical 5889)"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5890"}, "freq": 1,
+  "signals": [
+    {"id": "X5_COOLANT_OUTLET", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine radiator outlet coolant temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5896"}, "freq": 1,
+  "signals": [
+    {"id": "X5_EGT_BEHIND_CAT", "path": "Engine", "fmt": { "len": 16, "max": 1200, "min": -40, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature behind main catalyst"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "59D4"}, "freq": 1,
+  "signals": [
+    {"id": "X5_IAT_PRE_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "mul": 3, "div": 128, "add": -273, "sign": true, "unit": "celsius" }, "name": "Intake air temperature before throttle valve"}
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2014 }, "dbgfilter": { "years": [2019], "from": 2024 },
   "signals": [
