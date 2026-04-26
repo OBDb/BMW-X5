@@ -1,0 +1,32 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1,f=2017-
+test_cases:
+- expected_values:
+    X5_HVBAT_CT_MAX: 21.98
+    X5_HVBAT_CT_MIN: 20.98
+  response: |-
+    607F1100A62DDC00832
+    607F1210896087501FF
+- expected_values:
+    X5_HVBAT_CT_MAX: 21.98
+    X5_HVBAT_CT_MIN: 20.98
+  response: |-
+    607F1100A62DDC00832
+    607F1210896087601FF
+- expected_values:
+    X5_HVBAT_CT_MAX: 21.98
+    X5_HVBAT_CT_MIN: 20.98
+  response: |-
+    607F1100A62DDC00832
+    607F1210896087701FF
+- expected_values:
+    X5_HVBAT_CT_MAX: 21.98
+    X5_HVBAT_CT_MIN: 20.98
+  response: |-
+    607F1100A62DDC00832
+    607F1210896087801FF
+- expected_values:
+    X5_HVBAT_CT_MAX: 21.98
+    X5_HVBAT_CT_MIN: 20.99
+  response: |-
+    607F1100A62DDC00833
+    607F1210896087801FF
