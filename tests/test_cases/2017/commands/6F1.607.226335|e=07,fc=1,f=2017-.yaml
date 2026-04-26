@@ -1,0 +1,17 @@
+command_id: 6F1.607.226335|e=07,fc=1,f=2017-
+test_cases:
+- expected_values:
+    X5_HVBAT_SOH: 68
+  response: |-
+    607F110076263350000
+    607F1210044FFFFFFFF
+- expected_values:
+    X5_HVBAT_SOH: 69
+  response: |-
+    607F110076263350000
+    607F1210045FFFFFFFF
+- expected_values:
+    X5_HVBAT_SOH: 82
+  response: |-
+    607F110076263350000
+    607F1210052FFFFFFFF
