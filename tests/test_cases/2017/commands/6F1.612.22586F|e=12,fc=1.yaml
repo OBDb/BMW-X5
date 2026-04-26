@@ -1,17 +1,17 @@
 command_id: 6F1.612.22586F|e=12,fc=1
 test_cases:
 - expected_values:
-    BMW_EOP: 3
+    X5_EOP: 3
   response: 612F10562586F0382
 - expected_values:
-    BMW_EOP: 3
+    X5_EOP: 3
   response: 612F10562586F03AC
 - expected_values:
-    BMW_EOP: 3
+    X5_EOP: 3
   response: 612F10562586F03AD
 - expected_values:
-    BMW_EOP: 3
+    X5_EOP: 3
   response: 612F10562586F03E8
 - expected_values:
-    BMW_EOP: 3
+    X5_EOP: 3
   response: 612F10562586F03EB
