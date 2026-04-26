@@ -1,8 +1,8 @@
 command_id: 7E0.0110
 test_cases:
 - expected_values:
-    MAF: 10.88
-  response: '7E80441100440'
+    MAF: 9.66
+  response: 7E804411003C6
 - expected_values:
     MAF: 15.38
   response: '7E80441100602'
