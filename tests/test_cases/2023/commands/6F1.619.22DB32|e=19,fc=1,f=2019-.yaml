@@ -1,0 +1,8 @@
+command_id: 6F1.619.22DB32|e=19,fc=1,f=2019-
+test_cases:
+- expected_values:
+    X5_AXLE_FRONT_ACTUAL_TORQUE: -2.5
+    X5_AXLE_FRONT_SETPOINT_TORQUE: 0
+  response: |-
+    619F1100B62DB32FFF6
+    619F121000200000021
