@@ -1,0 +1,37 @@
+command_id: 6F1.640.221700|e=40,fc=1,f=2014-
+test_cases:
+- expected_values:
+    X5_ODO_2: 118281
+  response: |-
+    640F110076217000001
+    640F121CE09FFFFFFFF
+- expected_values:
+    X5_ODO_2: 118288
+  response: |-
+    640F110076217000001
+    640F121CE10FFFFFFFF
+- expected_values:
+    X5_ODO_2: 118303
+  response: |-
+    640F110076217000001
+    640F121CE1FFFFFFFFF
+- expected_values:
+    X5_ODO_2: 118823
+  response: |-
+    640F110076217000001
+    640F121D027FFFFFFFF
+- expected_values:
+    X5_ODO_2: 156653
+  response: |-
+    640F110076217000002
+    640F12163EDFFFFFFFF
+- expected_values:
+    X5_ODO_2: 159700
+  response: |-
+    640F110076217000002
+    640F1216FD4FFFFFFFF
+- expected_values:
+    X5_ODO_2: 192977
+  response: |-
+    640F110076217000002
+    640F121F1D1FFFFFFFF

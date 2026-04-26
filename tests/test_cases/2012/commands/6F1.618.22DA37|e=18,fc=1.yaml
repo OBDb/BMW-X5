@@ -1,81 +1,81 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 187
-    BMW_TIME_S: 202
+    X5_TIME_D: 0
+    X5_TIME_M: 187
+    X5_TIME_S: 202
   response: |-
     618F1100F62DA3700CA
     618F121BBFC000008A5
     618F1220000050FFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 8
-    BMW_TIME_S: 203
+    X5_TIME_D: 0
+    X5_TIME_M: 8
+    X5_TIME_S: 203
   response: |-
     618F1100F62DA3700CB
     618F1210834000008A5
     618F1220000050FFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 1
-    BMW_TIME_S: 204
+    X5_TIME_D: 0
+    X5_TIME_M: 1
+    X5_TIME_S: 204
   response: |-
     618F1100F62DA3700CC
     618F1210180000008A6
     618F12200000512FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 206
-    BMW_TIME_S: 204
+    X5_TIME_D: 0
+    X5_TIME_M: 206
+    X5_TIME_S: 204
   response: |-
     618F1100F62DA3700CC
     618F121CE0F000008A6
     618F12200000512FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 245
-    BMW_TIME_S: 204
+    X5_TIME_D: 0
+    X5_TIME_M: 245
+    X5_TIME_S: 204
   response: |-
     618F1100F62DA3700CC
     618F121F540000008A6
     618F12200000512FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 112
-    BMW_TIME_S: 206
+    X5_TIME_D: 0
+    X5_TIME_M: 112
+    X5_TIME_S: 206
   response: |-
     618F1100F62DA3700CE
     618F121702F000008A6
     618F12200000512FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 143
-    BMW_TIME_S: 209
+    X5_TIME_D: 0
+    X5_TIME_M: 143
+    X5_TIME_S: 209
   response: |-
     618F1100F62DA3700D1
     618F1218F40000008A8
     618F12200000530FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 143
-    BMW_TIME_S: 209
+    X5_TIME_D: 0
+    X5_TIME_M: 143
+    X5_TIME_S: 209
   response: |-
     618F1100F62DA3700D1
     618F1218FC6000008A8
     618F12200000530FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 119
-    BMW_TIME_S: 217
+    X5_TIME_D: 0
+    X5_TIME_M: 119
+    X5_TIME_S: 217
   response: |-
     618F1100F62DA3700D9
     618F12177F2000008E0
     618F1220000053AFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 9
-    BMW_TIME_S: 219
+    X5_TIME_D: 0
+    X5_TIME_M: 9
+    X5_TIME_S: 219
   response: |-
     618F1100F62DA3700DB
     618F121098C000008E0

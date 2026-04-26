@@ -1,105 +1,105 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 178
-    BMW_TIME_S: 55
+    X5_TIME_D: 0
+    X5_TIME_M: 178
+    X5_TIME_S: 55
   response: |-
     618F1100F62DA370037
     618F121B21F0002B024
     618F12200004E7CFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 179
-    BMW_TIME_S: 55
+    X5_TIME_D: 0
+    X5_TIME_M: 179
+    X5_TIME_S: 55
   response: |-
     618F1100F62DA370037
     618F121B3E00002B024
     618F12200004E7CFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 208
-    BMW_TIME_S: 55
+    X5_TIME_D: 0
+    X5_TIME_M: 208
+    X5_TIME_S: 55
   response: |-
     618F1100F62DA370037
     618F121D0060002B024
     618F12200004E7CFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 47
-    BMW_TIME_S: 56
+    X5_TIME_D: 0
+    X5_TIME_M: 47
+    X5_TIME_S: 56
   response: |-
     618F1100F62DA370038
     618F1212FFA0002B0BB
     618F12200004EE1FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 66
-    BMW_TIME_S: 56
+    X5_TIME_D: 0
+    X5_TIME_M: 66
+    X5_TIME_S: 56
   response: |-
     618F1100F62DA370038
     618F12142E30002B0BB
     618F12200004EF8FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 247
-    BMW_TIME_S: 56
+    X5_TIME_D: 0
+    X5_TIME_M: 247
+    X5_TIME_S: 56
   response: |-
     618F1100F62DA370038
     618F121F79F0002B0BB
     618F12200004F45FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 9
-    BMW_TIME_S: 58
+    X5_TIME_D: 0
+    X5_TIME_M: 9
+    X5_TIME_S: 58
   response: |-
     618F1100F62DA37003A
     618F12109530002B276
     618F12200004F60FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 44
-    BMW_TIME_S: 58
+    X5_TIME_D: 0
+    X5_TIME_M: 44
+    X5_TIME_S: 58
   response: |-
     618F1100F62DA37003A
     618F1212C170002B276
     618F1220000501CFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 174
-    BMW_TIME_S: 58
+    X5_TIME_D: 0
+    X5_TIME_M: 174
+    X5_TIME_S: 58
   response: |-
     618F1100F62DA37003A
     618F121AE2E0002B2CF
     618F12200005023FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 115
-    BMW_TIME_S: 95
+    X5_TIME_D: 0
+    X5_TIME_M: 115
+    X5_TIME_S: 95
   response: |-
     618F1100F62DA37005F
     618F12173C300018458
     618F122000009CCFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 170
-    BMW_TIME_S: 138
+    X5_TIME_D: 0
+    X5_TIME_M: 170
+    X5_TIME_S: 138
   response: |-
     618F1100F62DA37008A
     618F121AA560002E6C1
     618F1220000057AFFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 103
-    BMW_TIME_S: 152
+    X5_TIME_D: 0
+    X5_TIME_M: 103
+    X5_TIME_S: 152
   response: |-
     618F1100F62DA370098
     618F12167420002E6C7
     618F12200000617FFFF
 - expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 97
-    BMW_TIME_S: 155
+    X5_TIME_D: 0
+    X5_TIME_M: 97
+    X5_TIME_S: 155
   response: |-
     618F1100F62DA37009B
     618F12161B30002E8AA
