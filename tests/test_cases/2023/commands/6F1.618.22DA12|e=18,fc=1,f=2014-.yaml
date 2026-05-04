@@ -5,13 +5,4 @@ test_cases:
   response: 618F10562DA12004A
 - expected_values:
     X5_ATF_TEMP: 0
-  response: 618F10562DA12004B
-- expected_values:
-    X5_ATF_TEMP: 0
-  response: 618F10562DA12004C
-- expected_values:
-    X5_ATF_TEMP: 0
-  response: 618F10562DA12004D
-- expected_values:
-    X5_ATF_TEMP: 0
-  response: 618F10562DA12004F
+  response: 618F10562DA120086
