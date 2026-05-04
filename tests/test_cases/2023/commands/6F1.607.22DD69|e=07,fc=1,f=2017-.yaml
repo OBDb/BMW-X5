@@ -1,10 +1,10 @@
 command_id: 6F1.607.22DD69|e=07,fc=1,f=2017-
 test_cases:
 - expected_values:
-    X5_HVBAT_C: -2.14
+    X5_HVBAT_C: -17.89
   response: |-
     607F1100762DD69FFFF
-    607F121FF2AFFFFFFFF
+    607F121F903FFFFFFFF
 - expected_values:
     X5_HVBAT_C: -1.93
   response: |-
@@ -16,7 +16,7 @@ test_cases:
     607F1100762DD69FFFF
     607F121FF40FFFFFFFF
 - expected_values:
-    X5_HVBAT_C: -1.76
+    X5_HVBAT_C: -0.53
   response: |-
     607F1100762DD69FFFF
-    607F121FF50FFFFFFFF
+    607F121FFCBFFFFFFFF
