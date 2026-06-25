@@ -1,0 +1,23 @@
+command_id: 6F1.612.2257C3|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_OIL_TEMP_ALT: 63.2
+  response: 612F1056257C30278
+- expected_values:
+    X5_OIL_TEMP_ALT: 93.9
+  response: 612F1056257C303AB
+- expected_values:
+    X5_OIL_TEMP_ALT: 103.5
+  response: 612F1056257C3040B
+- expected_values:
+    X5_OIL_TEMP_ALT: 105.5
+  response: 612F1056257C3041F
+- expected_values:
+    X5_OIL_TEMP_ALT: 114
+  response: 612F1056257C30474
+- expected_values:
+    X5_OIL_TEMP_ALT: 116.6
+  response: 612F1056257C3048E
+- expected_values:
+    X5_OIL_TEMP_ALT: 122.5
+  response: 612F1056257C304C9
