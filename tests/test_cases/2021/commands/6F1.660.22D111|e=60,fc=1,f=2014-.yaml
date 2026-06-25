@@ -25,6 +25,16 @@ test_cases:
     X5_RANGE_E_CUR: 0
     X5_RANGE_E_MAX: 0
     X5_RANGE_E_USE: 12.5
+    X5_RANGE_F_CUR: 288
+  response: |-
+    660F1100F62D1110000
+    660F12100000B40FFFF
+    660F12230D40000FFFF
+- expected_values:
+    X5_AUX_PWR: 0
+    X5_RANGE_E_CUR: 0
+    X5_RANGE_E_MAX: 0
+    X5_RANGE_E_USE: 12.5
     X5_RANGE_F_CUR: 408
   response: |-
     660F1100F62D1110000
