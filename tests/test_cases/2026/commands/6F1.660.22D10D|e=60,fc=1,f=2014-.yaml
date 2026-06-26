@@ -1,11 +1,11 @@
 command_id: 6F1.660.22D10D|e=60,fc=1,f=2014-
 test_cases:
 - expected_values:
-    X5_ODO: 5405
-    X5_ODO_ALT: 5405
+    X5_ODO: 1540
+    X5_ODO_ALT: 1540
   response: |-
     660F1100B62D10D0000
-    660F121151D0000151D
+    660F121060400000604
 - expected_values:
     X5_ODO: 5407
     X5_ODO_ALT: 5407
