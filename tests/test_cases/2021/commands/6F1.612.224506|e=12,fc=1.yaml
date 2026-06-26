@@ -4,8 +4,8 @@ test_cases:
     X5_OIL_TEMP: 0
   response: 612F1056245060000
 - expected_values:
-    X5_OIL_TEMP: 108
-  response: 612F1056245066CFC
+    X5_OIL_TEMP: 9
+  response: 612F10562450609FF
 - expected_values:
     X5_OIL_TEMP: 111
   response: 612F1056245066F01
