@@ -71,7 +71,7 @@
   "signals": [
     {"id": "X5_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "X5_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
