@@ -1,6 +1,7 @@
 model_year: 2026
 supported_commands_by_ecu:
   "6F1":
+  - 6F1.612.22411E|e=12,fc=1:X5_COOLANT
   - 6F1.612.224C5B|e=12,fc=1:X5_EGT_CALC
   - 6F1.618.22DA1F|e=18,fc=1:X5_KICKDOWN
   - 6F1.618.22DA22|e=18,fc=1,f=2014-:X5_TQ_CNVRT_LOCKUP
@@ -20,6 +21,7 @@ supported_commands_by_ecu:
   - 7DF.0105
   - 7DF.0106
   - 7DF.012F
+  - 7DF.0131
   - 7DF.0134
   - 7DF.0144
   "7E0":
@@ -108,7 +110,6 @@ unsupported_commands_by_ecu:
   - 6F1.612.22400B|e=12,fc=1:X5_LAMBDA
   - 6F1.612.224015|e=12,fc=1:X5_IAT
   - 6F1.612.2240CB|e=12,fc=1:X5_ETHANOL_CAN
-  - 6F1.612.22411E|e=12,fc=1:X5_COOLANT
   - 6F1.612.224300
   - 6F1.612.224402
   - 6F1.612.224506|e=12,fc=1:X5_OIL_TEMP
