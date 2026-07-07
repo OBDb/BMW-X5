@@ -1,11 +1,11 @@
 command_id: 6F1.612.2257C3|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_OIL_TEMP_ALT: 66.8
-  response: 612F1056257C3029C
+    X5_OIL_TEMP_ALT: 65.8
+  response: 612F1056257C30292
+- expected_values:
+    X5_OIL_TEMP_ALT: 101.8
+  response: 612F1056257C303FA
 - expected_values:
     X5_OIL_TEMP_ALT: 103
   response: 612F1056257C30406
-- expected_values:
-    X5_OIL_TEMP_ALT: 125
-  response: 612F1056257C304E2
