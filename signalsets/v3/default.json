@@ -59,23 +59,23 @@
   "signals": [
     {"id": "X5_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022], "from": 2025 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022], "from": 2025 },
   "signals": [
     {"id": "X5_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1, excess air ratio", "suggestedMetric": "o2Lambda"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "X5_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "min": -40, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "X5_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "X5_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "X5_OIL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -83,11 +83,11 @@
   "signals": [
     {"id": "X5_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2027 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2027 },
   "signals": [
     {"id": "X5_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "57C3"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "57C3"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "X5_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature, alternate", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -158,7 +158,7 @@
     {"id": "X5_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "X5_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "X5_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
     {"id": "X5_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
