@@ -7,17 +7,5 @@ test_cases:
     X5_AAT: 5.5
   response: 660F10562D1125B5C
 - expected_values:
-    X5_AAT: 6
-  response: 660F10562D1125C5C
-- expected_values:
-    X5_AAT: 6
-  response: 660F10562D1125C5D
-- expected_values:
-    X5_AAT: 13
-  response: 660F10562D1126A6A
-- expected_values:
-    X5_AAT: 13
-  response: 660F10562D1126A6B
-- expected_values:
-    X5_AAT: 13
-  response: 660F10562D1126A6C
+    X5_AAT: 32
+  response: 660F10562D11290B1

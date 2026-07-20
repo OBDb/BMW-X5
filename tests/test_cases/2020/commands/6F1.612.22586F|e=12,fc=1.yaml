@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     X5_EOP: 3
   response: 612F10562586F03FC
+- expected_values:
+    X5_EOP: 9
+  response: 612F10562586F09B5
