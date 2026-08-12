@@ -1,0 +1,62 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1,f=2017-
+test_cases:
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.5
+    X5_HVBAT_CT_MIN: 29.77
+  response: |-
+    607F1100A62DDC00BA1
+    607F1210C4E0BFD01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.48
+    X5_HVBAT_CT_MIN: 29.78
+  response: |-
+    607F1100A62DDC00BA2
+    607F1210C4C0BFB01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.46
+    X5_HVBAT_CT_MIN: 29.8
+  response: |-
+    607F1100A62DDC00BA4
+    607F1210C4A0BFD01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.46
+    X5_HVBAT_CT_MIN: 29.82
+  response: |-
+    607F1100A62DDC00BA6
+    607F1210C4A0BFD01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.45
+    X5_HVBAT_CT_MIN: 29.84
+  response: |-
+    607F1100A62DDC00BA8
+    607F1210C490BFE01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.44
+    X5_HVBAT_CT_MIN: 29.86
+  response: |-
+    607F1100A62DDC00BAA
+    607F1210C480BFF01
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.44
+    X5_HVBAT_CT_MIN: 29.88
+  response: |-
+    607F1100A62DDC00BAC
+    607F1210C480C0001
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.42
+    X5_HVBAT_CT_MIN: 29.94
+  response: |-
+    607F1100A62DDC00BB2
+    607F1210C460C0401
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.41
+    X5_HVBAT_CT_MIN: 30.02
+  response: |-
+    607F1100A62DDC00BBA
+    607F1210C450C0901
+- expected_values:
+    X5_HVBAT_CT_MAX: 31.4
+    X5_HVBAT_CT_MIN: 30.07
+  response: |-
+    607F1100A62DDC00BBF
+    607F1210C440C0C01
