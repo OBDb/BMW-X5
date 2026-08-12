@@ -16,6 +16,12 @@ test_cases:
     X5_LAMBDA: 0
   response: |-
     612F1100F62400B003C
+    612F12106C80000007D
+    612F122FFF70008
+- expected_values:
+    X5_LAMBDA: 0
+  response: |-
+    612F1100F62400B003C
     612F12106C80000008D
     612F12200000008
 - expected_values:
