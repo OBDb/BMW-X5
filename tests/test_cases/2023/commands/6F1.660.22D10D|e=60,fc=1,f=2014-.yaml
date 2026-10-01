@@ -19,14 +19,20 @@ test_cases:
     660F1100B62D10D0000
     660F121B6C00000B6C0
 - expected_values:
-    X5_ODO: 47600
-    X5_ODO_ALT: 47600
-  response: |-
-    660F1100B62D10D0000
-    660F121B9F00000B9F0
-- expected_values:
     X5_ODO: 63684
     X5_ODO_ALT: 63684
   response: |-
     660F1100B62D10D0000
     660F121F8C40000F8C4
+- expected_values:
+    X5_ODO: 73374
+    X5_ODO_ALT: 73374
+  response: |-
+    660F1100B62D10D0001
+    660F1211E9E00011E9E
+- expected_values:
+    X5_ODO: 73376
+    X5_ODO_ALT: 73376
+  response: |-
+    660F1100B62D10D0001
+    660F1211EA000011EA0
