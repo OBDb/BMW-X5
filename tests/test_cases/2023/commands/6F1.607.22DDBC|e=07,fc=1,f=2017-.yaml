@@ -1,6 +1,13 @@
 command_id: 6F1.607.22DDBC|e=07,fc=1,f=2017-
 test_cases:
 - expected_values:
+    X5_HVBAT_SOC: 0.9
+    X5_HVBAT_SOC_MAX: 85
+    X5_HVBAT_SOC_MIN: 11
+  response: |-
+    607F1100962DDBC0009
+    607F1210352006EFFFF
+- expected_values:
     X5_HVBAT_SOC: 20.2
     X5_HVBAT_SOC_MAX: 87
     X5_HVBAT_SOC_MIN: 11
@@ -13,13 +20,6 @@ test_cases:
     X5_HVBAT_SOC_MIN: 11
   response: |-
     607F1100962DDBC01FE
-    607F1210366006EFFFF
-- expected_values:
-    X5_HVBAT_SOC: 52.2
-    X5_HVBAT_SOC_MAX: 87
-    X5_HVBAT_SOC_MIN: 11
-  response: |-
-    607F1100962DDBC020A
     607F1210366006EFFFF
 - expected_values:
     X5_HVBAT_SOC: 89.4
