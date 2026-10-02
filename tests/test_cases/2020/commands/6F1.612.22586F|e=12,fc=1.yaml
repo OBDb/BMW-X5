@@ -1,11 +1,11 @@
 command_id: 6F1.612.22586F|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_EOP: 3
+    X5_EOP: 1.008
   response: 612F10562586F03F0
 - expected_values:
-    X5_EOP: 3
+    X5_EOP: 1.02
   response: 612F10562586F03FC
 - expected_values:
-    X5_EOP: 9
+    X5_EOP: 2.485
   response: 612F10562586F09B5
