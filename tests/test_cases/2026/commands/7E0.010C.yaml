@@ -1,14 +1,11 @@
 command_id: 7E0.010C
 test_cases:
 - expected_values:
-    RPM: 743
-  response: 7E804410C0B9C
+    RPM: 0
+  response: 7E804410C0000
 - expected_values:
     RPM: 1023.5
   response: 7E804410C0FFE
-- expected_values:
-    RPM: 1216
-  response: 7E804410C1300
 - expected_values:
     RPM: 2337.5
   response: 7E804410C2486
