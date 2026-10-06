@@ -8,6 +8,13 @@ test_cases:
     607F1100962DDBC0009
     607F1210352006EFFFF
 - expected_values:
+    X5_HVBAT_SOC: 1.1
+    X5_HVBAT_SOC_MAX: 85.5
+    X5_HVBAT_SOC_MIN: 11
+  response: |-
+    607F1100962DDBC000B
+    607F1210357006EFFFF
+- expected_values:
     X5_HVBAT_SOC: 20.2
     X5_HVBAT_SOC_MAX: 87
     X5_HVBAT_SOC_MIN: 11
