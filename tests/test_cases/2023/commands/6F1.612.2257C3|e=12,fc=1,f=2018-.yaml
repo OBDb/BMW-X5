@@ -4,8 +4,8 @@ test_cases:
     X5_OIL_TEMP_ALT: 55.7
   response: 612F1056257C3022D
 - expected_values:
-    X5_OIL_TEMP_ALT: 76.5
-  response: 612F1056257C302FD
+    X5_OIL_TEMP_ALT: 76.6
+  response: 612F1056257C302FE
 - expected_values:
     X5_OIL_TEMP_ALT: 102.4
   response: 612F1056257C30400
