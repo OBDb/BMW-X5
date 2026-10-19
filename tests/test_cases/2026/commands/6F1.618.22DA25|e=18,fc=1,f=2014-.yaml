@@ -14,5 +14,5 @@ test_cases:
     X5_EOT: 10
   response: 618F10562DA25003A
 - expected_values:
-    X5_EOT: 100
-  response: 618F10562DA250094
+    X5_EOT: 104
+  response: 618F10562DA250098
