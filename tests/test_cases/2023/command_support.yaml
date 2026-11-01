@@ -39,10 +39,12 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0103
   - 7DF.0104
+  - 7DF.0105
   - 7DF.0106
   - 7DF.010C
   - 7DF.010F
   - 7DF.0110
+  - 7DF.0111
   - 7DF.0113
   - 7DF.0115
   - 7DF.0123
