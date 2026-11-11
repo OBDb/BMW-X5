@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     X5_VSS: 0
   response: 660F10562D1070000
+- expected_values:
+    X5_VSS: 12.4
+  response: 660F10562D107007C
