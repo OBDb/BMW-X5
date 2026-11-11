@@ -6,3 +6,27 @@ test_cases:
   response: |-
     618F1100762DA2A0000
     618F1210000FFFFFFFF
+- expected_values:
+    X5_TQ_CNVRT_RPM: 764
+    X5_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A02FC
+    618F1210000FFFFFFFF
+- expected_values:
+    X5_TQ_CNVRT_RPM: 769
+    X5_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A0301
+    618F1210000FFFFFFFF
+- expected_values:
+    X5_TQ_CNVRT_RPM: 862
+    X5_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A035E
+    618F1210000FFFFFFFF
+- expected_values:
+    X5_TQ_CNVRT_RPM: 1114
+    X5_TRANS_SHAFT_RPM: 1113
+  response: |-
+    618F1100762DA2A045A
+    618F1210459FFFFFFFF
