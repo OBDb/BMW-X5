@@ -1,0 +1,20 @@
+command_id: 6F1.612.22400B|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_LAMBDA: 0
+  response: |-
+    612F1100F62400B09F6
+    612F12109F200000084
+    612F12200080008FFFF
+- expected_values:
+    X5_LAMBDA: 0
+  response: |-
+    612F1100F62400B09F6
+    612F12109F200000085
+    612F12200080008FFFF
+- expected_values:
+    X5_LAMBDA: 0
+  response: |-
+    612F1100F62400B09F6
+    612F12109F200000086
+    612F12200080008FFFF
