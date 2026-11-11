@@ -4,26 +4,14 @@ test_cases:
     X5_AAT: 18
   response: 660F10562D1127480
 - expected_values:
-    X5_AAT: 18
-  response: 660F10562D1127481
-- expected_values:
-    X5_AAT: 18
-  response: 660F10562D1127482
-- expected_values:
-    X5_AAT: 18
-  response: 660F10562D1127483
-- expected_values:
-    X5_AAT: 18
-  response: 660F10562D1127484
+    X5_AAT: 22.5
+  response: 660F10562D1127D7D
 - expected_values:
     X5_AAT: 22.5
-  response: 660F10562D1127D7F
+  response: 660F10562D1127D88
 - expected_values:
     X5_AAT: 22.5
-  response: 660F10562D1127D84
+  response: 660F10562D1127D8A
 - expected_values:
-    X5_AAT: 22.5
-  response: 660F10562D1127D85
-- expected_values:
-    X5_AAT: 22.5
-  response: 660F10562D1127D87
+    X5_AAT: 23
+  response: 660F10562D1127E7F

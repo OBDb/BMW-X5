@@ -4,5 +4,5 @@ test_cases:
     X5_VSS_INSTR: 0
   response: 60DF10562D2400000
 - expected_values:
-    X5_VSS_INSTR: 37
-  response: 60DF10562D2400025
+    X5_VSS_INSTR: 100
+  response: 60DF10562D2400064

@@ -4,5 +4,8 @@ test_cases:
     X5_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    X5_VSS2: 39.35
-  response: 612F105624AB10F5F
+    X5_VSS2: 25.57
+  response: 612F105624AB109FD
+- expected_values:
+    X5_VSS2: 88.75
+  response: 612F105624AB122AB

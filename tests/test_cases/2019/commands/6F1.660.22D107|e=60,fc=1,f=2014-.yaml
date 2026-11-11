@@ -4,5 +4,26 @@ test_cases:
     X5_VSS: 0
   response: 660F10562D1070000
 - expected_values:
+    X5_VSS: 6.6
+  response: 660F10562D1070042
+- expected_values:
     X5_VSS: 12.4
   response: 660F10562D107007C
+- expected_values:
+    X5_VSS: 58.9
+  response: 660F10562D107024D
+- expected_values:
+    X5_VSS: 65.2
+  response: 660F10562D107028C
+- expected_values:
+    X5_VSS: 69.2
+  response: 660F10562D10702B4
+- expected_values:
+    X5_VSS: 78.1
+  response: 660F10562D107030D
+- expected_values:
+    X5_VSS: 82.3
+  response: 660F10562D1070337
+- expected_values:
+    X5_VSS: 94.7
+  response: 660F10562D10703B3
