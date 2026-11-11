@@ -5,3 +5,8 @@ test_cases:
   response: |-
     640F110076217000002
     640F1212739FFFFFFFF
+- expected_values:
+    X5_ODO_2: 141123
+  response: |-
+    640F110076217000002
+    640F1212743FFFFFFFF
