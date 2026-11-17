@@ -121,11 +121,11 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5816"}, "freq": 1,
   "signals": [
-    {"id": "X5_LAMBDA_SETPOINT", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 16, "div": 65536, "unit": "scalar" }, "name": "Lambda setpoint", "suggestedMetric": "commandedLambda"}
+    {"id": "X5_LAMBDA_SETPOINT", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 16, "div": 65536, "unit": "scalar" }, "name": "Lambda target", "suggestedMetric": "commandedLambda"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5822"}, "freq": 1,
   "signals": [
-    {"id": "X5_OIL_TEMP_V2", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature, variant 2", "suggestedMetric": "engineOilTemperature"}
+    {"id": "X5_OIL_TEMP_V2", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -40, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature, variant 2", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "582F"}, "freq": 1,
   "signals": [
@@ -149,7 +149,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5890"}, "freq": 1,
   "signals": [
-    {"id": "X5_COOLANT_OUTLET", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -40, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine radiator outlet coolant temperature"}
+    {"id": "X5_COOLANT_OUTLET", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -40, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine radiator outlet coolant temperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5896"}, "freq": 1,
   "signals": [
