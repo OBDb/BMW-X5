@@ -1,33 +1,33 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
-    X5_TIME_D: 0
-    X5_TIME_M: 110
-    X5_TIME_S: 122
+    X5_TIME_D: 8023628
+    X5_TIME_M: 1076
+    X5_TIME_S: 24772
   response: |-
     618F1100F62DA37007A
     618F1216E4C000060C4
     618F12200000434FFFF
 - expected_values:
-    X5_TIME_D: 0
-    X5_TIME_M: 111
-    X5_TIME_S: 122
+    X5_TIME_D: 8023920
+    X5_TIME_M: 1076
+    X5_TIME_S: 24772
   response: |-
     618F1100F62DA37007A
     618F1216F70000060C4
     618F12200000434FFFF
 - expected_values:
-    X5_TIME_D: 0
-    X5_TIME_M: 112
-    X5_TIME_S: 122
+    X5_TIME_D: 8024313
+    X5_TIME_M: 1076
+    X5_TIME_S: 25549
   response: |-
     618F1100F62DA37007A
     618F12170F9000063CD
     618F12200000434FFFF
 - expected_values:
-    X5_TIME_D: 0
-    X5_TIME_M: 33
-    X5_TIME_S: 157
+    X5_TIME_D: 10297642
+    X5_TIME_M: 4685
+    X5_TIME_S: 10784
   response: |-
     618F1100F62DA37009D
     618F121212A00002A20

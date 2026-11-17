@@ -1,0 +1,11 @@
+command_id: 6F1.612.224506|e=12,fc=1,f=2018-
+test_cases:
+- expected_values:
+    X5_OIL_TEMP: 0
+  response: 612F1056245060000
+- expected_values:
+    X5_OIL_TEMP: 36
+  response: 612F10562450624F9
+- expected_values:
+    X5_OIL_TEMP: 109
+  response: 612F1056245066DE7
