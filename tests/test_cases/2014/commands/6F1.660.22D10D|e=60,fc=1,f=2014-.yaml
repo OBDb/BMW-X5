@@ -37,8 +37,8 @@ test_cases:
     660F1100B62D10D0001
     660F121A0000001A000
 - expected_values:
-    X5_ODO: 4294967295
-    X5_ODO_ALT: 0
+    X5_ODO: null
+    X5_ODO_ALT: null
   response: |-
     660F1100B62D10DFFFF
     660F121FFFF00000000
