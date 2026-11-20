@@ -1,0 +1,8 @@
+command_id: 6F1.612.224A21|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_COOLANT_FILT: 82.55
+  response: 612F105624A210DE5
+- expected_values:
+    X5_COOLANT_FILT: 88.15
+  response: 612F105624A210E1D

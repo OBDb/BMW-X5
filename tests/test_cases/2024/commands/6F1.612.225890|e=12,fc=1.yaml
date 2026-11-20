@@ -1,0 +1,5 @@
+command_id: 6F1.612.225890|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_COOLANT_OUTLET: 143.25
+  response: 612F104625890FF
