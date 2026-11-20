@@ -1,0 +1,14 @@
+command_id: 6F1.612.225896|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_EGT_BEHIND_CAT: 381.95
+  response: 612F1056258961997
+- expected_values:
+    X5_EGT_BEHIND_CAT: 545.85
+  response: 612F1056258961FFE
+- expected_values:
+    X5_EGT_BEHIND_CAT: 571.75
+  response: 612F1056258962101
+- expected_values:
+    X5_EGT_BEHIND_CAT: 858.15
+  response: 612F1056258962C31
