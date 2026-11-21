@@ -1,14 +1,14 @@
 command_id: 6F1.612.2259D4|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 25.6875
-  response: 612F1056259D431C8
+    X5_IAT_PRE_THROTTLE: 15.70312
+  response: 612F1056259D4301E
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 32.90625
-  response: 612F1056259D432FC
+    X5_IAT_PRE_THROTTLE: 20.90625
+  response: 612F1056259D430FC
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 33
-  response: 612F1056259D43300
+    X5_IAT_PRE_THROTTLE: 21
+  response: 612F1056259D43100
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 51.1875
-  response: 612F1056259D43608
+    X5_IAT_PRE_THROTTLE: 59.29688
+  response: 612F1056259D43762
