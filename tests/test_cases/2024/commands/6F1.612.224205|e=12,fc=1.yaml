@@ -1,8 +1,8 @@
 command_id: 6F1.612.224205|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_BOOST_P: 97.17969
-  response: 612F1056242053097
+    X5_BOOST_P: 92.92969
+  response: 612F1056242052E77
 - expected_values:
     X5_BOOST_P: 99.99219
   response: 612F10562420531FF

@@ -11,4 +11,4 @@ test_cases:
   response: 612F1056258161000
 - expected_values:
     X5_LAMBDA_SETPOINT: 2
-  response: 612F105625816FFFF
+  response: 612F105625816FF00
