@@ -1,8 +1,8 @@
 command_id: 6F1.612.225816|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_LAMBDA_SETPOINT: 0.83496
-  response: 612F1056258160D5C
+    X5_LAMBDA_SETPOINT: 0.83398
+  response: 612F1056258160D58
 - expected_values:
     X5_LAMBDA_SETPOINT: 0.99976
   response: 612F1056258160FFF

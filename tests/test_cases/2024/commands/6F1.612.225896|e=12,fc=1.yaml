@@ -4,11 +4,11 @@ test_cases:
     X5_EGT_BEHIND_CAT: 381.95
   response: 612F1056258961997
 - expected_values:
-    X5_EGT_BEHIND_CAT: 545.85
-  response: 612F1056258961FFE
+    X5_EGT_BEHIND_CAT: 469.15
+  response: 612F1056258961CFF
 - expected_values:
-    X5_EGT_BEHIND_CAT: 571.75
-  response: 612F1056258962101
+    X5_EGT_BEHIND_CAT: 674.05
+  response: 612F1056258962500
 - expected_values:
     X5_EGT_BEHIND_CAT: 858.15
   response: 612F1056258962C31
