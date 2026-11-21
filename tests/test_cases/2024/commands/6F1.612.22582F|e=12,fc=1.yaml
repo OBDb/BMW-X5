@@ -4,11 +4,11 @@ test_cases:
     X5_CAT_T: 382.05
   response: 612F10562582F1998
 - expected_values:
-    X5_CAT_T: 571.95
-  response: 612F10562582F2103
+    X5_CAT_T: 418.05
+  response: 612F10562582F1B00
 - expected_values:
-    X5_CAT_T: 673.95
-  response: 612F10562582F24FF
+    X5_CAT_T: 494.75
+  response: 612F10562582F1DFF
 - expected_values:
     X5_CAT_T: 858.55
   response: 612F10562582F2C35
