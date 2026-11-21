@@ -1,0 +1,8 @@
+command_id: 6F1.612.22583B|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_FUEL_LEVEL: 48
+  response: 612F10462583B30
+- expected_values:
+    X5_FUEL_LEVEL: 49
+  response: 612F10462583B31

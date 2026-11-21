@@ -1,0 +1,14 @@
+command_id: 6F1.612.22480B|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_PEDAL_POS: 0
+  response: 612F10562480B0000
+- expected_values:
+    X5_PEDAL_POS: 3.30811
+  response: 612F10562480B010F
+- expected_values:
+    X5_PEDAL_POS: 36.58447
+  response: 612F10562480B0BB5
+- expected_values:
+    X5_PEDAL_POS: 70.03174
+  response: 612F10562480B1669
