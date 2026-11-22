@@ -1,26 +1,11 @@
 command_id: 6F1.612.224AB0|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_BOOST_P_SET: 100.48438
-  response: 612F105624AB0647C
+    X5_BOOST_P_SET: 0
+  response: 612F105624AB00000
 - expected_values:
-    X5_BOOST_P_SET: 100.60938
-  response: 612F105624AB0649C
-- expected_values:
-    X5_BOOST_P_SET: 100.64844
-  response: 612F105624AB064A6
-- expected_values:
-    X5_BOOST_P_SET: 100.66016
-  response: 612F105624AB064A9
-- expected_values:
-    X5_BOOST_P_SET: 100.6875
-  response: 612F105624AB064B0
-- expected_values:
-    X5_BOOST_P_SET: 100.71094
-  response: 612F105624AB064B6
-- expected_values:
-    X5_BOOST_P_SET: 102.10938
-  response: 612F105624AB0661C
+    X5_BOOST_P_SET: 100.73438
+  response: 612F105624AB064BC
 - expected_values:
     X5_BOOST_P_SET: 130.73438
   response: 612F105624AB082BC

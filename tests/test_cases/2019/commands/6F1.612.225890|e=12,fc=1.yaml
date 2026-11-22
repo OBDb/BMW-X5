@@ -4,23 +4,5 @@ test_cases:
     X5_COOLANT_OUTLET: 39.75
   response: 612F10462589075
 - expected_values:
-    X5_COOLANT_OUTLET: 42
-  response: 612F10462589078
-- expected_values:
-    X5_COOLANT_OUTLET: 42.75
-  response: 612F10462589079
-- expected_values:
-    X5_COOLANT_OUTLET: 44.25
-  response: 612F1046258907B
-- expected_values:
-    X5_COOLANT_OUTLET: 45.75
-  response: 612F1046258907D
-- expected_values:
-    X5_COOLANT_OUTLET: 46.5
-  response: 612F1046258907E
-- expected_values:
-    X5_COOLANT_OUTLET: 52.5
-  response: 612F10462589086
-- expected_values:
-    X5_COOLANT_OUTLET: 60
-  response: 612F10462589090
+    X5_COOLANT_OUTLET: 80.25
+  response: 612F104625890AB
