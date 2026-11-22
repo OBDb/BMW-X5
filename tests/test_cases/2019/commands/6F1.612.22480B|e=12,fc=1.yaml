@@ -7,8 +7,20 @@ test_cases:
     X5_PEDAL_POS: 3.30811
   response: 612F10562480B010F
 - expected_values:
+    X5_PEDAL_POS: 12.24365
+  response: 612F10562480B03EB
+- expected_values:
+    X5_PEDAL_POS: 28.79639
+  response: 612F10562480B0937
+- expected_values:
+    X5_PEDAL_POS: 31.11572
+  response: 612F10562480B09F5
+- expected_values:
     X5_PEDAL_POS: 36.58447
   response: 612F10562480B0BB5
+- expected_values:
+    X5_PEDAL_POS: 41.55273
+  response: 612F10562480B0D4C
 - expected_values:
     X5_PEDAL_POS: 70.03174
   response: 612F10562480B1669

@@ -4,26 +4,11 @@ test_cases:
     X5_IAT_PRE_THROTTLE: 54.39844
   response: 612F1056259D43691
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 55.19531
-  response: 612F1056259D436B3
-- expected_values:
-    X5_IAT_PRE_THROTTLE: 55.40625
-  response: 612F1056259D436BC
-- expected_values:
-    X5_IAT_PRE_THROTTLE: 58.80469
-  response: 612F1056259D4374D
-- expected_values:
-    X5_IAT_PRE_THROTTLE: 61.28906
-  response: 612F1056259D437B7
-- expected_values:
-    X5_IAT_PRE_THROTTLE: 61.80469
-  response: 612F1056259D437CD
-- expected_values:
     X5_IAT_PRE_THROTTLE: 62.90625
   response: 612F1056259D437FC
 - expected_values:
-    X5_IAT_PRE_THROTTLE: 64.59375
-  response: 612F1056259D43844
+    X5_IAT_PRE_THROTTLE: 64.00781
+  response: 612F1056259D4382B
 - expected_values:
     X5_IAT_PRE_THROTTLE: 79.00781
   response: 612F1056259D43AAB
