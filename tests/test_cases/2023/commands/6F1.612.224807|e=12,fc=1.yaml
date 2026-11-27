@@ -1,0 +1,14 @@
+command_id: 6F1.612.224807|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_RPM: 0
+  response: 612F1056248070000
+- expected_values:
+    X5_RPM: 1452
+  response: 612F1056248070B58
+- expected_values:
+    X5_RPM: 1608
+  response: 612F1056248070C90
+- expected_values:
+    X5_RPM: 1660.5
+  response: 612F1056248070CF9

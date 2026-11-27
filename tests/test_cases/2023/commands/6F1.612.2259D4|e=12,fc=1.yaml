@@ -1,0 +1,32 @@
+command_id: 6F1.612.2259D4|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 30.70312
+  response: 612F1056259D4329E
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 31.40625
+  response: 612F1056259D432BC
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 32.10938
+  response: 612F1056259D432DA
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 32.29688
+  response: 612F1056259D432E2
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 32.50781
+  response: 612F1056259D432EB
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 33.30469
+  response: 612F1056259D4330D
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 33.39844
+  response: 612F1056259D43311
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 34.10156
+  response: 612F1056259D4332F
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 35.20312
+  response: 612F1056259D4335E
+- expected_values:
+    X5_IAT_PRE_THROTTLE: 37.99219
+  response: 612F1056259D433D5

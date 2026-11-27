@@ -1,0 +1,11 @@
+command_id: 6F1.612.224AB0|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_BOOST_P_SET: 101.41016
+  response: 612F105624AB06569
+- expected_values:
+    X5_BOOST_P_SET: 101.91016
+  response: 612F105624AB065E9
+- expected_values:
+    X5_BOOST_P_SET: 102
+  response: 612F105624AB06600
