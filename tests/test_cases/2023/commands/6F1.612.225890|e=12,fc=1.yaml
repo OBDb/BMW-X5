@@ -1,0 +1,23 @@
+command_id: 6F1.612.225890|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_COOLANT_OUTLET: 9
+  response: 612F1046258904C
+- expected_values:
+    X5_COOLANT_OUTLET: 9.75
+  response: 612F1046258904D
+- expected_values:
+    X5_COOLANT_OUTLET: 11.25
+  response: 612F1046258904F
+- expected_values:
+    X5_COOLANT_OUTLET: 12
+  response: 612F10462589050
+- expected_values:
+    X5_COOLANT_OUTLET: 12.75
+  response: 612F10462589051
+- expected_values:
+    X5_COOLANT_OUTLET: 15.75
+  response: 612F10462589055
+- expected_values:
+    X5_COOLANT_OUTLET: 18.75
+  response: 612F10462589059

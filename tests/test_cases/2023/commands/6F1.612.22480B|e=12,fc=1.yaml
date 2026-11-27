@@ -1,0 +1,29 @@
+command_id: 6F1.612.22480B|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_PEDAL_POS: 0
+  response: 612F10562480B0000
+- expected_values:
+    X5_PEDAL_POS: 12.90283
+  response: 612F10562480B0421
+- expected_values:
+    X5_PEDAL_POS: 22.18018
+  response: 612F10562480B0719
+- expected_values:
+    X5_PEDAL_POS: 24.8291
+  response: 612F10562480B07F2
+- expected_values:
+    X5_PEDAL_POS: 25.81787
+  response: 612F10562480B0843
+- expected_values:
+    X5_PEDAL_POS: 26.48926
+  response: 612F10562480B087A
+- expected_values:
+    X5_PEDAL_POS: 30.12695
+  response: 612F10562480B09A4
+- expected_values:
+    X5_PEDAL_POS: 32.1167
+  response: 612F10562480B0A47
+- expected_values:
+    X5_PEDAL_POS: 33.43506
+  response: 612F10562480B0AB3

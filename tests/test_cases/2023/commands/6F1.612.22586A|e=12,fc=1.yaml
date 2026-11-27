@@ -1,0 +1,14 @@
+command_id: 6F1.612.22586A|e=12,fc=1
+test_cases:
+- expected_values:
+    X5_BATTERY_V: 14.82
+  response: 612F10562586A02E5
+- expected_values:
+    X5_BATTERY_V: 14.88
+  response: 612F10562586A02E8
+- expected_values:
+    X5_BATTERY_V: 14.94
+  response: 612F10562586A02EB
+- expected_values:
+    X5_BATTERY_V: 14.96
+  response: 612F10562586A02EC
