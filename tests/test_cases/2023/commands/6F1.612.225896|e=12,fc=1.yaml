@@ -1,6 +1,9 @@
 command_id: 6F1.612.225896|e=12,fc=1
 test_cases:
 - expected_values:
+    X5_EGT_BEHIND_CAT: -0.05
+  response: 612F1056258960AAB
+- expected_values:
     X5_EGT_BEHIND_CAT: 490.15
   response: 612F1056258961DD1
 - expected_values:
