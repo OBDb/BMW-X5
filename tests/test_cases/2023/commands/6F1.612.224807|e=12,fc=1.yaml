@@ -4,8 +4,20 @@ test_cases:
     X5_RPM: 0
   response: 612F1056248070000
 - expected_values:
+    X5_RPM: 1323.5
+  response: 612F1056248070A57
+- expected_values:
+    X5_RPM: 1327
+  response: 612F1056248070A5E
+- expected_values:
     X5_RPM: 1452
   response: 612F1056248070B58
+- expected_values:
+    X5_RPM: 1470
+  response: 612F1056248070B7C
+- expected_values:
+    X5_RPM: 1480.5
+  response: 612F1056248070B91
 - expected_values:
     X5_RPM: 1608
   response: 612F1056248070C90
