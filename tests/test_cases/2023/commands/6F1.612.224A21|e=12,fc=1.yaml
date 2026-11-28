@@ -4,8 +4,8 @@ test_cases:
     X5_COOLANT_FILT: 18.75
   response: 612F105624A210B67
 - expected_values:
-    X5_COOLANT_FILT: 94.55
-  response: 612F105624A210E5D
+    X5_COOLANT_FILT: 79.45
+  response: 612F105624A210DC6
 - expected_values:
-    X5_COOLANT_FILT: 97.25
-  response: 612F105624A210E78
+    X5_COOLANT_FILT: 88.25
+  response: 612F105624A210E1E

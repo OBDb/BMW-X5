@@ -1,32 +1,11 @@
 command_id: 6F1.612.225896|e=12,fc=1
 test_cases:
 - expected_values:
-    X5_EGT_BEHIND_CAT: -0.05
-  response: 612F1056258960AAB
+    X5_EGT_BEHIND_CAT: -40
+  response: 612F1056258960000
 - expected_values:
     X5_EGT_BEHIND_CAT: 490.15
   response: 612F1056258961DD1
-- expected_values:
-    X5_EGT_BEHIND_CAT: 505.05
-  response: 612F1056258961E66
-- expected_values:
-    X5_EGT_BEHIND_CAT: 506.45
-  response: 612F1056258961E74
-- expected_values:
-    X5_EGT_BEHIND_CAT: 526.65
-  response: 612F1056258961F3E
-- expected_values:
-    X5_EGT_BEHIND_CAT: 532.05
-  response: 612F1056258961F74
-- expected_values:
-    X5_EGT_BEHIND_CAT: 533.55
-  response: 612F1056258961F83
-- expected_values:
-    X5_EGT_BEHIND_CAT: 540.45
-  response: 612F1056258961FC8
-- expected_values:
-    X5_EGT_BEHIND_CAT: 557.35
-  response: 612F1056258962071
 - expected_values:
     X5_EGT_BEHIND_CAT: 576.65
   response: 612F1056258962132

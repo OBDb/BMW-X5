@@ -10,5 +10,5 @@ test_cases:
     X5_BOOST_P: 102.03125
   response: 612F1056242053304
 - expected_values:
-    X5_BOOST_P: 112.625
-  response: 612F1056242053850
+    X5_BOOST_P: 114.48438
+  response: 612F105624205393E
